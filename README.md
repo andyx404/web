@@ -41,4 +41,5 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 MP3
 
 MP4
-  [https://media.andyx.ml/site/mp4/haoxinhaobao.html]好心好报
+  [好心好报](https://media.andyx.ml/site/mp4/haoxinhaobao.html)
+
