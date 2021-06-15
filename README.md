@@ -34,7 +34,16 @@ Your Pages site will use the layout and styles from the Jekyll theme you have se
 
 ### Support or Contact
 
-Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.
+Having trouble with Pages? Check out our [documentation](https://docs.github.com/categories/github-pages-basics/) or [contact support](https://support.github.com/contact) and we’ll help you sort it out.  
+  
+  本文主要用到几个应用：1.标题（大标题、中标题）[用#号或=号] ;  
+                     2.加粗如mp3,"**mp3**";  
+                    3.超链接[](),方号为显示的字体，括号为链接地址会隐藏；  
+                    4.圆点：要注意的是星号* 后面要有一个空格。否则显示为普通星号。即* 号+空格；不同级别可以用tab键分出，一个tab为一级，二个tab为二级,如此类推;    
+  转自：  [网页1](https://web.archive.org/web/20210615110431/https://blog.csdn.net/u011537073/article/details/85837991?depth_1-utm_source=distribute.pc_relevant.none-task-blog-2~default~BlogCommendFromMachineLearnPai2~default-18.control)--https://blog.csdn.net/u011537073/article/details/85837991?utm_medium=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-18.control&depth_1-utm_source=distribute.pc_relevant.none-task-blog-2%7Edefault%7EBlogCommendFromMachineLearnPai2%7Edefault-18.control      
+        
+ [网页2](https://web.archive.org/web/20210615110841/https://blog.csdn.net/guodongxiaren/article/details/23690801)--https://blog.csdn.net/guodongxiaren/article/details/23690801
+                    
 
 
 目录
