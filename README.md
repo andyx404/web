@@ -52,6 +52,7 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 ### **[MP3](https://github.com/andyx404/web/tree/main/site/mp3)**  
   
   * [秘密花园](https://media.andyx.ml/site/mp3/Secret%20Garden.html)
+  * [造夢時學會飛行+红日](https://media.andyx.ml/site/mp3/zaomengshixuehuifeixing+hongri.html)
 
 ### **[MP4](https://github.com/andyx404/web/tree/main/site/mp4)**  
 
