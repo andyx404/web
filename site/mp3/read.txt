@@ -1,1 +1,15 @@
+1.
+HTML font color 文字顏色範例一、直接在 <font> 內使用 color
+<font color="blue">文字顏色為藍色</font>、<font color="#FF0000">文字顏色為紅色</font>   两种方式  
+<b></b>粗体
+详见：https://www.wibibi.com/info.php?tid=393
 
+2.转自：https://www.cxyzjd.com/article/qq_39985298/89521277
+html设置背景图片自适应
+在<body>中设置：
+
+<body background="images\bg.jpg" style=" background-repeat:no-repeat ; background-size:100% 100%; background-attachment: fixed;">
+第一行是图片url
+第二行是背景图片不重复
+第三行是达到窗口的百分百比例
+第四行是图片固定，随着页面滚动而移动
