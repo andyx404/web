@@ -1,0 +1,105 @@
+<!DOCTYPE html>
+<html lang="zh-CN">
+
+<head>
+    <meta charset="UTF-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>DPlayer_Demo</title>
+    <!-- mdui -->
+    <link rel="stylesheet" href="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/css/mdui.min.css"
+        integrity="sha384-cLRrMq39HOZdvE0j6yBojO4+1PrHfB7a9l5qLcmRm/fiWXYY+CndJPmyu5FV/9Tw" crossorigin="anonymous" />
+    <script src="https://cdn.jsdelivr.net/npm/mdui@1.0.1/dist/js/mdui.min.js"
+        integrity="sha384-gCMZcshYKOGRX9r6wbDrvF+TcCCswSHFucUzUPwka+Gr+uHgjlYvkABr95TCOz3A"
+        crossorigin="anonymous"></script>
+    <!-- mdui -->
+    <!-- dp - css - hls -->
+    <!-- dp css -->
+    <link class="dplayer-css" rel="stylesheet" href="https://cdn.jsdelivr.net/npm/dplayer/dist/DPlayer.min.css">
+    <!-- hls -->
+	<script src="https://cdn.bootcdn.net/ajax/libs/hls.js/1.0.8-0.canary.7807/hls.light.min.js"></script>
+    <!-- flv -->
+	<script src="https://cdn.bootcdn.net/ajax/libs/flv.js/1.6.1/flv.min.js"></script>
+    <!-- dash -->
+	<script src="https://cdn.bootcdn.net/ajax/libs/dashjs/4.0.1/dash.all.min.js"></script>
+    <!-- dpjs -->
+    <script src="https://media.andyx.ml/web_element/DPlayer.min.js"></script>
+    <!-- dp - hls -->
+</head>
+<style>
+    .nice-xl {
+        border-radius: 8px;
+    }
+
+    .mdui-img-fluid,
+    .mdui-video-fluid {
+        display: red;
+        /* max-width: 100%; */
+        height: auto;
+        width: 100%;
+    }
+	.dplayer-logo{
+	      max-width: 130px;
+          max-height: 130px;
+		  position: absolute;
+		  left: 30px;
+          top: 30px;
+	}
+	 .dplayer-menu-show{display:none;}
+	 .dplayer.dplayer-mobile .dplayer-controller .dplayer-icons .dplayer-full .dplayer-full-in-icon {
+    position: static;
+    display: none;
+}
+	 
+</style>
+
+<body class="mdui-theme-layout-dark">
+    <!-- nav -->
+    <div class="mdui-toolbar mdui-color-theme mdui-shadow-7">
+        <a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">ondemand_video</i></a>
+        <span class="mdui-typo-title"><p style="color:black">Player_Open Tom</p></span>
+        <div class="mdui-toolbar-spacer"></div>
+        <a href="./" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">refresh</i></a>
+        <a href="javascript:;" class="mdui-btn mdui-btn-icon"><i class="mdui-icon material-icons">more_vert</i></a>
+    </div>
+    <!-- nav -->
+    <!-- middle -->
+
+    <div class="mdui-container">
+        <!-- DPlayer -->
+        <div class="mdui-shadow-4 nice-xl mdui-m-t-4 mdui-m-b-4" id="dplayer">
+        </div>
+        <!-- DPlayer -->
+        <div class="mdui-panel-item mdui-panel-item-open">
+        </div>
+    </div>
+    <!-- middle -->
+
+<script>
+    const dp = new DPlayer({
+    container: document.getElementById('dplayer'),
+       // logo: './1.png',
+    video: {
+        url: 'https://media.andyx.ml/m3u9/oneindex.m3u8',
+		type: 'hls'
+    },
+	contextmenu:[],
+	lang: 'en',
+	autoplay: true,
+	preload: 'auto',
+	loop: true,
+	//screenshot: true,
+});
+
+</script>
+<script language="Javascript"> 
+ //   document.oncontextmenu=new Function("event.returnValue=false"); 
+  //   document.onselectstart=new Function("event.returnValue=false"); 
+</script>
+<script>
+<script type="text/javascript">
+    document.body.oncopy=function(){alert("复制成功！分享不易，转载请务必保留出处，谢谢合作！");}
+</script>
+<body background="https://media.andyx.ml/media/background.jpg">
+<h2 align="center"><p style="color:black">Copyright &copy;2012-2022.All Rights Reserved.</p></h2>
+<h2 align="center"><p style="color:black">Designed by Open Tom</p></h2>
