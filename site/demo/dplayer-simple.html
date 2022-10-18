@@ -1,0 +1,44 @@
+<meta http-equiv='Content-Type' content='text/html; charset=UTF-8' />
+<meta name="viewport" content="width=device-width, initial-scale=1.0">
+<link href='https://cdnjs.loli.net/ajax/libs/dplayer/1.25.0/DPlayer.min.css' rel='stylesheet'>
+<div id='dplayer'></div>
+<ul class='dplistul'></ul>
+<div style='clear:both'></div>
+<script src='https://cdnjs.loli.net/ajax/libs/dplayer/1.25.0/DPlayer.min.js'></script>
+<script src='https://cdnjs.loli.net/ajax/libs/hls.js/0.9.1/hls.min.js'></script>
+<script src='https://cdnjs.loli.net/ajax/libs/flv.js/1.4.2/flv.min.js'></script>
+<script src='https://cdnjs.loli.net/ajax/libs/dashjs/2.9.2/dash.all.min.js'></script>
+
+<style>
+  #dplayer{
+           max-width:960px;
+           height:620px;
+		   position: absolute;
+                top: 0;
+                left: 0;
+                right: 0;
+                bottom: 0;
+                margin: auto;
+     }
+</style>
+<script>
+var url = 'https://matix.li/5b8d8e3b4d82';
+var pic='';
+var addition='';
+var thumbnails = '';
+var defaultQuality =0;
+const dp = new DPlayer({
+container: document.getElementById('dplayer'),
+autoplay: false,
+theme: '#b7daff',
+loop: false,
+lang: 'zh-cn',
+screenshot: false,
+hotkey: false,
+preload: 'auto',
+logo: '',
+volume: 0.7,
+mutex: false,
+video:{quality: [{"name":"","url":"https://matix.li/5b8d8e3b4d82","type":"auto"}],pic:pic,defaultQuality:defaultQuality,thumbnails:thumbnails},});
+</script>
+<body background="https://media.andyx.ml/media/background.jpg">
