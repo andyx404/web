@@ -1,0 +1,41 @@
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta charset="utf-8">
+    <meta name=viewport content="width=device-width,initial-scale=1,maximum-scale=1,minimum-scale=1,user-scalable=no,minimal-ui">
+    <meta name="referrer" content="no-referrer">
+    <title>xgplayer-mp4</title>
+    <style type="text/css">
+      html, body {width:100%;height:100%;margin:auto;overflow: hidden;}
+    </style>
+  </head>
+  <body>
+    <div id="mse"></div>
+    <script src="https://unpkg.byted-static.com/xgplayer/2.31.6/browser/index.js" charset="utf-8"></script>
+      <script src="https://unpkg.byted-static.com/xgplayer-hls.js/2.2.2/browser/index.js" charset="utf-8"></script><script>
+<!-- mp4与m3u区别就以下面的player,m3u为HlsJsPlayer-->    
+      let player = new Player({
+		"id": "mse",
+		"playsinline": true,
+		"whitelist": [
+				""
+		],
+		"fluid": true,
+		"autoplay": false,
+		"volume": 1,
+		"playbackRate": [
+				0.25,
+				0.5,
+				1,
+				1.5,
+				2
+		],
+		"url": "https://matix.li/5b8d8e3b4d82",
+		"width": 920,
+		"height": 420
+      });
+      
+          </script>
+  </body>
+  <body background="https://media.andyx.ml/media/background.jpg">
+</html>
