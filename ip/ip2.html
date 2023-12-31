@@ -1,0 +1,31 @@
+<!DOCTYPE html>
+<html>
+<head>
+    <title>IP地址查询</title>
+    <script src="https://code.jquery.com/jquery-3.6.0.min.js"></script>
+    <script>
+        function queryIP() {
+            var ipAddress = document.getElementById("ipAddress").value;
+            var url = "http://ip-api.com/json/" + ipAddress + "?lang=zh-CN";
+
+            $.ajax({
+                url: url,
+                type: "GET",
+                dataType: "json",
+                success: function(response) {
+                    document.getElementById("result").innerHTML = JSON.stringify(response, null, 2);
+                },
+                error: function(error) {
+                    document.getElementById("result").innerHTML = "查询失败：" + error.statusText;
+                }
+            });
+        }
+    </script>
+</head>
+<body>
+    <h1>IP地址查询</h1>
+    <input type="text" id="ipAddress" placeholder="请输入IP地址">
+    <button onclick="queryIP()">查询</button>
+    <pre id="result"></pre>
+</body>
+</html>
