@@ -50,7 +50,7 @@ Having trouble with Pages? Check out our [documentation](https://docs.github.com
 ==
 
 ### [粤语发音工具](https://media.chantel.eu.org/cantonese/cantonese.html)
-### [IP归属地查询](https://media.chantel.eu.org/ip/ip.html)   ### [IPV4查询](https://ipv4.ping0.cc/)    ### [IPV6查询](https://ipv6.ping0.cc/)
+### [IP归属地查询](https://media.chantel.eu.org/ip/ip.html)    [IPV4查询](https://ipv4.ping0.cc/)    [IPV6查询](https://ipv6.ping0.cc/)
 ### [聊天工具](https://chatai.chantel.eu.org/)
 
 ### **[MP3](https://github.com/andyx404/web/tree/main/site/mp3)**  
